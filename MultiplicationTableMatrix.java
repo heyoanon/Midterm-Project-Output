@@ -6,6 +6,12 @@ public class MultiplicationTableMatrix {
         
         System.out.print("Enter maximum number: ");
         int max = sc.nextInt();
+        System.out.print("Enter the number of rows: ");
+        int rows = sc.nextInt();
+        System.out.print("Enter the number of columns: ");
+        int columns = sc.nextInt();
+        System.out.print("Enter starting number: ");
+        int starting = sc.nextInt();
         
         int largestValue = 0;
         int sumOfValues = 0;
