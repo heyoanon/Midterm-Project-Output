@@ -20,7 +20,7 @@ public class ComprehensiveNumberAnalysisChallenge {
         System.out.print("Enter an end number: ");
         limit = sc.nextInt();
 
-//The following conditions and steps to count how many there are prime and composite numbers, and get the highest prime number in the given range.
+        //The following conditions and steps to count how many there are prime and composite numbers, and get the highest prime number in the given range.
         for (int i = snum; i <= limit; i++) {
             if (prime(i)) {
                 prime++;
