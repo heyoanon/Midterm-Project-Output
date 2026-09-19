@@ -66,3 +66,11 @@ public class ATM {
             choice = sc.nextInt();
 
       //The code in loop menu to run the following options.
+
+            }
+                     
+        } while (choice != 6);
+                  
+        sc.close();
+    }
+}
